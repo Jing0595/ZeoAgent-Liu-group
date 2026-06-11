@@ -10,6 +10,7 @@
 - `src/zeoagent/tools/iza_match.py`
 - `src/zeoagent/tools/ring_tools.py`
 - `src/zeoagent/tools/separation_support.py`
+- `scripts/Point_cloud_constrained_workflow.py`
 - `scripts/generate_frameworks_from_contour.py`
 
 ## Kept as manual or placeholder integrations

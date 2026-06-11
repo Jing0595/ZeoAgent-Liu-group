@@ -4,7 +4,7 @@ The public ZeoAgent release does not ship with the proprietary remote generation
 
 ## What you should run on your HPC system
 
-Use the public point-cloud generation algorithm together with your own cluster-specific job scripts, scheduler settings, software environment, and file staging logic.
+Use `scripts/Point_cloud_constrained_workflow.py` together with your own cluster-specific job scripts, scheduler settings, software environment, and file staging logic.
 
 Your remote workflow should:
 

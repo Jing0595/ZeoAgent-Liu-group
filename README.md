@@ -40,7 +40,7 @@ The public release focuses on the parts of that workflow that can be shared clea
 
 The main public generation component is:
 
-- `scripts/generate_frameworks_from_contour.py`
+- `scripts/Point_cloud_constrained_workflow.py`
 
 This script implements the core point-cloud-guided idea described in the manuscript:
 
@@ -68,8 +68,10 @@ See [docs/hpc_adaptation.md](docs/hpc_adaptation.md) for the expected contract.
 
 - `src/zeoagent/`
   - ZeoAgent framework, CLI, and public tool wrappers
+- `scripts/Point_cloud_constrained_workflow.py`
+  - manuscript-facing entry point for the public point-cloud-based framework generation algorithm
 - `scripts/generate_frameworks_from_contour.py`
-  - public point-cloud-based framework generation algorithm
+  - underlying implementation used by the public entry point
 - `docs/hpc_adaptation.md`
   - how to connect your own HPC workflow
 - `docs/model_integration.md`
