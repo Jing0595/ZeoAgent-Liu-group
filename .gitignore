@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+out/
+data/generated_candidates/
+data/zeopp_runs/

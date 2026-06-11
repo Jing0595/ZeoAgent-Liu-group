@@ -1,0 +1,11 @@
+ase
+langchain-core
+langchain-openai
+langgraph
+networkx
+numpy
+openai
+pydantic
+pydantic-settings
+pymatgen
+requests

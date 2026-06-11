@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zeoagent"
+version = "0.1.0"
+description = "Open ZeoAgent framework for zeolite analysis and point-cloud-driven generation workflows"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "ase",
+  "langchain-core",
+  "langchain-openai",
+  "langgraph",
+  "networkx",
+  "numpy",
+  "openai",
+  "pydantic",
+  "pydantic-settings",
+  "pymatgen",
+  "requests",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

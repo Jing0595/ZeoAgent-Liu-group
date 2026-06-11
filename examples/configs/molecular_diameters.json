@@ -1,0 +1,16 @@
+{
+  "species": [
+    {
+      "species": "CO2",
+      "kinetic_diameter_A": 3.3,
+      "source": "example",
+      "aliases": ["co2", "carbon dioxide"]
+    },
+    {
+      "species": "CH4",
+      "kinetic_diameter_A": 3.8,
+      "source": "example",
+      "aliases": ["ch4", "methane"]
+    }
+  ]
+}
