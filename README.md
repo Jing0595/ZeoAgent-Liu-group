@@ -14,14 +14,15 @@ The central idea behind ZeoAgent is that zeolite design cannot be handled reliab
 - local evidence-retrieval helpers for separation-oriented tasks
 - public integration contracts for optional HPC, diffusion-prediction, and reference-optimization steps
 
-## What this repository does not contain
+## What users should prepare or integrate
 
-- private pretrained diffusion models
-- private descriptor datasets
-- proprietary remote generation workflows
-- private literature corpora or curated analysis outputs
-- cluster-specific SSH, scheduler, or deployment details
-- the internal GULP setup used in the private project
+To reproduce the full research workflow, users should prepare or connect the following components in their own environments:
+
+- a diffusion-prediction backend and any associated descriptor data if diffusion prediction is needed
+- an HPC-side generation workflow for large-scale candidate generation
+- any local literature or separation corpora used for evidence retrieval
+- cluster-specific deployment details such as scheduler settings, remote paths, and environment setup
+- a local reference-optimization workflow if GULP-based reference relaxation is part of your use case
 
 ## Scientific scope
 
