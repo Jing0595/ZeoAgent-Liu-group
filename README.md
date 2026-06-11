@@ -49,13 +49,11 @@ This script implements the core point-cloud-guided idea described in the manuscr
 3. expand those sites through symmetry operations
 4. screen candidate arrangements with geometric and connectivity constraints
 
-This repository provides the algorithm itself. Users are expected to deploy and run that generation workflow in their own HPC environments when large-scale generation is required.
+This repository provides the algorithm itself. Users are expected to deploy and run that workflow in their own HPC environments when large-scale generation is required.
 
 ## Public workflow boundary
 
-The open-source ZeoAgent release does **not** automate remote job submission or distribute the proprietary remote generation workflow from the private project.
-
-Instead, the intended handoff is:
+The intended handoff is:
 
 1. use the public point-cloud generation algorithm in your own local or HPC environment
 2. produce candidate CIF files
@@ -69,9 +67,7 @@ See [docs/hpc_adaptation.md](docs/hpc_adaptation.md) for the expected contract.
 - `src/zeoagent/`
   - ZeoAgent framework, CLI, and public tool wrappers
 - `scripts/Point_cloud_constrained_workflow.py`
-  - manuscript-facing entry point for the public point-cloud-based framework generation algorithm
-- `scripts/generate_frameworks_from_contour.py`
-  - underlying implementation used by the public entry point
+  - public point-cloud-based framework generation algorithm
 - `docs/hpc_adaptation.md`
   - how to connect your own HPC workflow
 - `docs/model_integration.md`
